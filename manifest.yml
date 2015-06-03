@@ -1,0 +1,11 @@
+---
+applications:
+- name: stickysession
+  memory: 512M
+  instances: 1
+  host: stickysession
+  #domain: run.pivotal.io
+  path: target/stickysession-1.0-SNAPSHOT.war
+  timeout: 180
+  
+  
